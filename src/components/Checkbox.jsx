@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 const Checkbox = props => {
-    // (A)
+    
     const {
         onChange,
         data: { id, description, done }
@@ -8,7 +8,7 @@ const Checkbox = props => {
     return (
         <Fragment>
             <label className="todo new-item">
-                {/*(B) (C)*/}
+                
                 <input
                     className="todo__state"
                     name={id}

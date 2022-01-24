@@ -13,13 +13,14 @@ body {
     font-family: sans-serif;
     text-align: center;
     display: flex;
-    
+    flex-direction: row;
+
 }
 
 .todo-list {
-    background: #fff;
-    font-size: 15px;
-    max-width: 300px;
+    background: #BAE2EA;
+    font-size: 10px;
+    max-width: 400px;
     margin: auto;
     margin-bottom: 20px;
     padding: 8px 16px;
@@ -27,7 +28,22 @@ body {
 }
 
 
-/* .div {
+
+.div {
+    display: flex;
     flex-direction: row;
 }
- */
+
+/* .div {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .App {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+
+
