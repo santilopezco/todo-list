@@ -5,7 +5,26 @@ import Container from './components/Container.jsx'
 function App() {
   return (
     <div className='App'>
-      <Container/>
+      <div>
+        <h1>Lunes</h1>
+        <Container/>
+      </div>
+      <div>
+        <h1>Martes</h1>
+        <Container/>
+      </div>
+      <div>
+        <h1>Miercoles</h1>
+        <Container/>
+      </div>
+      <div>
+        <h1>Jueves</h1>
+        <Container/>
+      </div>
+      <div>
+        <h1>Viernes</h1>
+        <Container/>
+      </div>       
     </div>
   );
 }
